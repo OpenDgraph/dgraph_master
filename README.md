@@ -3,7 +3,7 @@ Build Dgraph from master branch (nightly? Dgraph binary)
 
 That's not the best way, but is the fastest way to get a latest Dgraph binary.
 
-If you are on windows, just clone the Dgraph repo here. And run:
+If you are on windows, just clone the Dgraph repo here and run:
 
 ```
 docker build . -t dgraph:local
