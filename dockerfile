@@ -13,8 +13,6 @@ COPY . .
 
 RUN cd dgraph && make install
 
-RUN which dgraph
-
 FROM golang:alpine
 
 COPY --from=builder /go/bin/dgraph /go/bin/dgraph
