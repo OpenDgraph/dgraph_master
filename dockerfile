@@ -7,6 +7,7 @@ RUN mkdir -p $GOPATH/src/github.com/dgraph-io/
 WORKDIR $GOPATH/src/github.com/dgraph-io/
 
 #! If you wanna build always the latest commit, uncomment the next line. But this will take time to build.
+#! Also remove the line 13 with the COPY command. And you you don't need to clone Dgraph repo again.
 #RUN git clone -v --progress https://github.com/dgraph-io/dgraph.git
 
 COPY . .
